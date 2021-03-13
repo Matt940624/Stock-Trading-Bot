@@ -1,7 +1,6 @@
-This will be the final algorithm and automation of stock trading bot. I am going to use several of the function I had previously tested out on. 
-This would be a blend between the previous simple moving average and the pairs strategy I discovered online. This trading algorithm will have four
-parts to it. The first part will be getting the data, this part would be quite easy with the API I am currently using. The second part will be
-to process the data, to implement it into a series of formulas to determine the position of stocks. The third part is the algorithm and the logic
-itself. This logic will be implemented after a series of trial and error. The final part would be the email notifications. For this entire function
-to run without manual operation, it needs some form of communication with me. Using a package should solve this. The endgoal of this function is 
-to have it run on Google developer and for it to be acessible to all. 
+The purpose of this small test will be to try and host a socket server that gets information from the internet called. "webscraping".
+Although this is a Python based project, this small initial test will use some javascript. This project will be grabbing data from a 
+website of different foreign exchange rate. To start off this side project, I will need a main execution script. Then, I will need to 
+build a webscraping script using javascript. Finally, the data acquired will be sent to my socket server created in another python file. 
+When linked together with the main python script, the thing will continiously pull data from the internet and make them into tables and
+storing it in the socket server. 
