@@ -1,0 +1,6 @@
+The purpose of this small test will be to try and host a socket server that gets information from the internet called. "webscraping".
+Although this is a Python based project, this small initial test will use some javascript. This project will be grabbing data from a 
+website of different foreign exchange rate. To start off this side project, I will need a main execution script. Then, I will need to 
+build a webscraping script using javascript. Finally, the data acquired will be sent to my socket server created in another python file. 
+When linked together with the main python script, the thing will continiously pull data from the internet and make them into tables and
+storing it in the socket server. 
