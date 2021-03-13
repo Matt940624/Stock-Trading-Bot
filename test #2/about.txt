@@ -1,0 +1,5 @@
+This side project is to delve deeper into the realm of algorithms. The algorithm I am exploring in this side project is the simple moving average. 
+This strategy is used by many day trading experts in the stock trading market. I will also be testing on a new API that I have recently discovered,
+called the Alpaca API. This API should allow me to get stock data fairly easy and make trades within the platform itself. The simple moving average
+is a strategy that is calculated by adding the price of an instrument over a number of time periods and then dividing the sum by the number of time 
+periods. This is pretty useful when one has the needed data. 
