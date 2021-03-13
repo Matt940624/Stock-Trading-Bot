@@ -1,0 +1,4 @@
+This third test is another test on the algorithm strategy of Martingale. Martingale is a strategy of investing in which the dollar value of 
+investments continually increases after losses, or the position size increases with the lowering portfolio size. Meaning for every loss one 
+increases the stock order by double. This should be an interesting test to my paper account. And this would also show if this is the suitable
+strategy according to the complexity of the logic behind it. 
