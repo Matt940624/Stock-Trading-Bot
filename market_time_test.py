@@ -5,7 +5,9 @@ from datetime import datetime
 os.environ['APCA_API_BASE_URL'] = 'https://paper-api.alpaca.markets'
 
 # API credentials
-api = tradeapi.REST('PK8XYB3SLLFYA78HI7DS', '9PLhpUeAo4xDoi3nN4zmAZzW1HXRmJ31TZHax9RG', api_version='v2')
+# These keys can be found on the side of the dashboard after signing into Alpaca trading account
+# Click generate secret key to generate key
+api = tradeapi.REST('Enter your own API key from Alpaca', 'Enter secrect key', api_version='v2')
 account = api.get_account()
 
 
