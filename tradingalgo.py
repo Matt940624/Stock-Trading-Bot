@@ -17,12 +17,17 @@ def pairs_trading_algo(self):
     os.environ['APCA_API_BASE_URL'] = 'https://paper-api.alpaca.markets'
 
     # API credentials
-    api = tradeapi.REST('PK8XYB3SLLFYA78HI7DS', '9PLhpUeAo4xDoi3nN4zmAZzW1HXRmJ31TZHax9RG', api_version='v2')
+    api = tradeapi.REST('enter API key', 'enter secret key', api_version='v2')
     account = api.get_account()
 
     # The e-mail address and password
+    # Create one new gmail account
+    
+    # Enter new gmail account and password
     sender_address = 'pythonstockbot123@gmail.com'
     sender_pass = '@162534435261'
+    
+    # Enter gmail you want to recieve notification with
     receiver_address = 'mattshih95@gmail.com'
 
     # Setup MIME
@@ -31,7 +36,9 @@ def pairs_trading_algo(self):
     message['To'] = receiver_address
     message['Subject'] = 'Trading Update' 
 
-    # My Selection of Stocks
+    # My Selection of Stocks, in this case, ADBE means Adobe and AAPL means Apple.
+    # Another popular selection is SPY & QQQQ
+    # These are some popular stocks for pairs strategy
     days = 1000
     stock1 = 'ADBE'
     stock2 = 'AAPL'

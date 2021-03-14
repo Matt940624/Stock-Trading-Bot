@@ -6,7 +6,7 @@ from pytz import timezone
 tz = timezone('EST')
 
 api = tradeapi.REST('your key',
-                    'your secret',
+                    'your secret key',
                     'https://paper-api.alpaca.markets')
 
 import logging

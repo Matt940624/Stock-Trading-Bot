@@ -3,8 +3,8 @@ import alpaca_trade_api as tradeapi
 class Martingale():
     
     def __init__(self):
-        self.key = 'PKOHMX3UMEZYOX1TGCXC'
-        self.secret = 'cvwUElVNl83g1Gn2QBv95N2aVeCymx1p5iTjOkpt'
+        self.key = 'Enter key'
+        self.secret = 'Enter secret key'
         self.endpoint = 'https://paper-api.alpaca.markets'
         self.api = tradeapi.REST(self.key, self.secret, self.endpoint)
         self.symbol = 'IVV'
