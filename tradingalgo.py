@@ -24,11 +24,11 @@ def pairs_trading_algo(self):
     # Create one new gmail account
     
     # Enter new gmail account and password
-    sender_address = 'pythonstockbot123@gmail.com'
-    sender_pass = '@162534435261'
+    sender_address = 'new account'
+    sender_pass = 'new account password'
     
     # Enter gmail you want to recieve notification with
-    receiver_address = 'mattshih95@gmail.com'
+    receiver_address = 'receiver gmail'
 
     # Setup MIME
     message = MIMEMultipart()
